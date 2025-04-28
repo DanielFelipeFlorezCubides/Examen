@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/formulario.css">
+    <title>Recetas</title>
+</head>
+<body>
+    <div class="recipe-form">
+        <form action="">
+            <div class="form-section">
+                <h2>Información de la receta</h2>
+                    <div class="form-group">
+                        <label for="recipeName">Nombre de la receta</label>
+                        <input type="text"  name="recipeName" placeholder="Ingresa el nombre" required>
+                    </div>
+            </div>
+
+            <div>
+                <div class="form-group">
+                    <label for="recipeIngredients">Ingredientes</label>
+                    <input type="text"  name="recipeIngredients" placeholder="Ingresa los ingredientes" required>
+                </div>
+            </div>
+
+            <div>
+                <div class="form-group">
+                    <label for="recipeInstructions">Instrucciones</label>
+                    <input type="text"  name="recipeInstructions" placeholder="Ingresa las Instrucciones" required>
+                </div>
+            </div>
+
+            <div>
+                <div class="form-group">
+                    <label for="recipeTime">Tiempo de preparación</label>
+                    <input type="text"  name="recipeTime" placeholder="Ingresa el tiempo de preparación" required>
+                </div>
+            </div>
+
+            <div>
+                <div class="form-group">
+                    <label for="recipePortions">Número de porciones</label>
+                    <input type="text"  name="recipePortions" placeholder="Ingresa el numero de porciones" required>
+                </div>
+            </div>
+
+            <div>
+                <div class="form-group">
+                    <label for="recipeCategory">Categoria</label>
+                    <select name="categoria" id="">
+                        <option value="" disabled selected>Selecciona una categoria</option>
+                        <option value="desayuno">Desayuno</option>
+                        <option value="almuerzo">Almuerzo</option>
+                        <option value="cena">Cena</option>
+                        <option value="postre">Postre</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <div class="form-group">
+                    <label for="recipeDificulty">Nivel de dificultad</label>
+                    <select name="dificultad" id="">
+                        <option value="" disabled selected>Selecciona la dificultad</option>
+                        <option value="f">Fácil</option>
+                        <option value="m">Medio</option>
+                        <option value="d">Díficil</option>
+                    </select>
+                </div>
+            </div>
+
+            <button>Guardar</button>
+        </form>
+    </div>
+</body>
+</html>

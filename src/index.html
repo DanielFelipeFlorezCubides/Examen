@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/dashboardStyle.css">
+    <title>Examen</title>
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h1>Mis Recetas</h1>
+        </header>
+
+        <div class="dashboard-card">
+            <h2>Recetas guardas</h2>
+            <div class="search-container">
+                <div class="search-input-wrapper">
+                    <input type="text" id="characterSearch" placeholder="Buscar recetas..." class="search-input">
+                    <button id="clearSearch" class="clear-search-btn">&times;</button>
+                </div>
+                <div class="search-filters">
+                    <label class="filter-label">
+                        <input type="checkbox" id="filterName" checked> Nombre
+                    </label>
+                    <label class="filter-label">
+                        <input type="checkbox" id="filterCat" checked> Categoria
+                    </label>
+                    <label class="filter-label">
+                        <input type="checkbox" id="filterDif" checked> Dificultad
+                    </label>
+                </div>
+            </div>
+            <div class="recipes-grid">
+                <a class="recipe" href="./formulario.html">
+                    <div class="recipe" id="recipe">
+                        <span>+</span>
+                        <p>Escribir nueva receta</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
